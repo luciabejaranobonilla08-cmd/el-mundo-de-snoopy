@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "El Mundo de Snoopy",
+    "slug": "el-mundo-de-snoopy",
+    "version": "0.1.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": false,
+      "orientations": ["portrait"],
+      "bundleIdentifier": "com.elmundodesnoopy.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "orientation": "portrait",
+      "package": "com.elmundodesnoopy.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}
